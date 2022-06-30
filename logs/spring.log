@@ -258,3 +258,270 @@ Identify and stop the process that's listening on port 2333 or configure this ap
 2022-06-30 19:23:35.215  INFO 17660 --- [XNIO-1 I/O-11] lavalink.server.io.SocketServer          : {"track":"QAAAewIAFzIwIHNlY29uZCB2aWRlbyBhbWF6aW5nAApuaXlhc3B2IHB2AAAAAAAARlAAC1VVZ1N6THp4SnlvAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9VVVnU3pMenhKeW8AB3lvdXR1YmUAAAAAAAAAAA==","guildId":"553003755390369803","op":"play"}
 2022-06-30 19:23:37.558  INFO 17660 --- [XNIO-1 I/O-11] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:60131 -- CloseStatus[code=1006, reason=]
 2022-06-30 19:23:37.558  INFO 17660 --- [XNIO-1 I/O-11] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2022-06-30 19:26:40.158  INFO 17660 --- [XNIO-1 task-22] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:60286
+2022-06-30 19:26:40.162  INFO 17660 --- [XNIO-1 task-22] lavalink.server.io.SocketServer          : Connection successfully established from Victoria/5.2.8.0
+2022-06-30 19:26:59.700  INFO 17660 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"guildId":"553003755390369803","sessionId":"cdcacf7c48a0b1086e3fc632828ce917","event":{"token":"3a7f6665cac5722b","endpoint":"russia3791.discord.media:443"},"op":"voiceUpdate"}
+2022-06-30 19:27:12.477  INFO 17660 --- [XNIO-1 task-23] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=UUgSzLzxJyo"
+2022-06-30 19:27:12.566  INFO 17660 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 20 second video amazing
+2022-06-30 19:27:13.061  INFO 17660 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"track":"QAAAewIAFzIwIHNlY29uZCB2aWRlbyBhbWF6aW5nAApuaXlhc3B2IHB2AAAAAAAARlAAC1VVZ1N6THp4SnlvAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9VVVnU3pMenhKeW8AB3lvdXR1YmUAAAAAAAAAAA==","guildId":"553003755390369803","op":"play"}
+2022-06-30 19:27:35.182  INFO 17660 --- [XNIO-1 task-25] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=UUgSzLzxJyo"
+2022-06-30 19:27:35.274  INFO 17660 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 20 second video amazing
+2022-06-30 19:27:43.414  INFO 17660 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:60286 -- CloseStatus[code=1006, reason=]
+2022-06-30 19:27:43.415  INFO 17660 --- [XNIO-1 I/O-10] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2022-06-30 19:27:50.464  INFO 17660 --- [XNIO-1 task-27] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:60335
+2022-06-30 19:27:50.467  INFO 17660 --- [XNIO-1 task-27] lavalink.server.io.SocketServer          : Connection successfully established from Victoria/5.2.8.0
+2022-06-30 19:27:59.108  INFO 17660 --- [XNIO-1 I/O-11] lavalink.server.io.SocketServer          : {"guildId":"553003755390369803","sessionId":"764a258c2d74d50fd71f871bf65c2287","event":{"token":"3a7f6665cac5722b","endpoint":"russia3791.discord.media:443"},"op":"voiceUpdate"}
+2022-06-30 19:28:37.469  INFO 17660 --- [XNIO-1 task-28] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=UUgSzLzxJyo"
+2022-06-30 19:28:37.568  INFO 17660 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 20 second video amazing
+2022-06-30 19:30:09.895  INFO 17660 --- [XNIO-1 I/O-11] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:60335 -- CloseStatus[code=1006, reason=]
+2022-06-30 19:30:09.895  INFO 17660 --- [XNIO-1 I/O-11] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2022-06-30 19:30:57.586  INFO 17660 --- [XNIO-1 task-30] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:60460
+2022-06-30 19:30:57.590  INFO 17660 --- [XNIO-1 task-30] lavalink.server.io.SocketServer          : Connection successfully established from Victoria/5.2.8.0
+2022-06-30 19:31:09.727  INFO 17660 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"guildId":"553003755390369803","sessionId":"d4b2cb11462785758d4643f423176539","event":{"token":"3a7f6665cac5722b","endpoint":"russia3791.discord.media:443"},"op":"voiceUpdate"}
+2022-06-30 19:31:15.518  INFO 17660 --- [XNIO-1 task-31] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=UUgSzLzxJyo"
+2022-06-30 19:31:15.615  INFO 17660 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 20 second video amazing
+2022-06-30 19:31:30.003  INFO 17660 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"track":"QAAAewIAFzIwIHNlY29uZCB2aWRlbyBhbWF6aW5nAApuaXlhc3B2IHB2AAAAAAAARlAAC1VVZ1N6THp4SnlvAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9VVVnU3pMenhKeW8AB3lvdXR1YmUAAAAAAAAAAA==","guildId":"553003755390369803","op":"play"}
+2022-06-30 19:31:47.756  INFO 17660 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:60460 -- CloseStatus[code=1006, reason=]
+2022-06-30 19:31:47.757  INFO 17660 --- [XNIO-1 I/O-4] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2022-06-30 19:32:46.825  INFO 17660 --- [XNIO-1 task-33] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:60658
+2022-06-30 19:32:46.828  INFO 17660 --- [XNIO-1 task-33] lavalink.server.io.SocketServer          : Connection successfully established from Victoria/5.2.8.0
+2022-06-30 19:33:10.368  INFO 17660 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"guildId":"553003755390369803","sessionId":"2a6291ebaa5f091e708c4f965e337570","event":{"token":"3a7f6665cac5722b","endpoint":"russia3791.discord.media:443"},"op":"voiceUpdate"}
+2022-06-30 19:33:17.027  INFO 17660 --- [XNIO-1 task-34] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=UUgSzLzxJyo"
+2022-06-30 19:33:17.122  INFO 17660 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 20 second video amazing
+2022-06-30 19:33:48.641  INFO 17660 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"track":"QAAAewIAFzIwIHNlY29uZCB2aWRlbyBhbWF6aW5nAApuaXlhc3B2IHB2AAAAAAAARlAAC1VVZ1N6THp4SnlvAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9VVVnU3pMenhKeW8AB3lvdXR1YmUAAAAAAAAAAA==","guildId":"553003755390369803","op":"play"}
+2022-06-30 19:34:17.507  INFO 17660 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:60658 -- CloseStatus[code=1006, reason=]
+2022-06-30 19:34:17.508  INFO 17660 --- [XNIO-1 I/O-10] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2022-06-30 19:35:01.122  INFO 17660 --- [XNIO-1 task-36] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:60829
+2022-06-30 19:35:01.124  INFO 17660 --- [XNIO-1 task-36] lavalink.server.io.SocketServer          : Connection successfully established from Victoria/5.2.8.0
+2022-06-30 19:35:03.596  INFO 17660 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"guildId":"553003755390369803","sessionId":"88235796b0d8bad018614bd70bf7b187","event":{"token":"3a7f6665cac5722b","endpoint":"russia3791.discord.media:443"},"op":"voiceUpdate"}
+2022-06-30 19:35:03.792  INFO 17660 --- [XNIO-1 task-37] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=UUgSzLzxJyo"
+2022-06-30 19:35:03.882  INFO 17660 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 20 second video amazing
+2022-06-30 19:35:04.343  INFO 17660 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"track":"QAAAewIAFzIwIHNlY29uZCB2aWRlbyBhbWF6aW5nAApuaXlhc3B2IHB2AAAAAAAARlAAC1VVZ1N6THp4SnlvAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9VVVnU3pMenhKeW8AB3lvdXR1YmUAAAAAAAAAAA==","guildId":"553003755390369803","op":"play"}
+2022-06-30 19:35:11.552  INFO 17660 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"guildId":"553003755390369803","op":"stop"}
+2022-06-30 19:35:11.553  INFO 17660 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"guildId":"553003755390369803","op":"destroy"}
+2022-06-30 19:36:53.790  INFO 17660 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:60829 -- CloseStatus[code=1006, reason=]
+2022-06-30 19:36:53.790  INFO 17660 --- [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2022-06-30 19:40:16.656  INFO 17660 --- [XNIO-1 task-39] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:56967
+2022-06-30 19:40:16.660  INFO 17660 --- [XNIO-1 task-39] lavalink.server.io.SocketServer          : Connection successfully established from Victoria/5.2.8.0
+2022-06-30 19:40:19.659  INFO 17660 --- [XNIO-1 task-40] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=UUgSzLzxJyo"
+2022-06-30 19:40:19.707  INFO 17660 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"guildId":"553003755390369803","sessionId":"99a1096521abda259d52425dffb3213d","event":{"token":"d1a549d014695903","endpoint":"russia3791.discord.media:443"},"op":"voiceUpdate"}
+2022-06-30 19:40:19.806  INFO 17660 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 20 second video amazing
+2022-06-30 19:40:24.804  INFO 17660 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"track":"QAAAewIAFzIwIHNlY29uZCB2aWRlbyBhbWF6aW5nAApuaXlhc3B2IHB2AAAAAAAARlAAC1VVZ1N6THp4SnlvAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9VVVnU3pMenhKeW8AB3lvdXR1YmUAAAAAAAAAAA==","guildId":"553003755390369803","op":"play"}
+2022-06-30 19:41:09.716  INFO 17660 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:56967 -- CloseStatus[code=1006, reason=]
+2022-06-30 19:41:09.717  INFO 17660 --- [XNIO-1 I/O-3] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2022-06-30 19:41:41.526  INFO 17660 --- [XNIO-1 task-42] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:57061
+2022-06-30 19:41:41.529  INFO 17660 --- [XNIO-1 task-42] lavalink.server.io.SocketServer          : Connection successfully established from Victoria/5.2.8.0
+2022-06-30 19:41:44.549  INFO 17660 --- [XNIO-1 task-43] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=UUgSzLzxJyo"
+2022-06-30 19:41:44.642  INFO 17660 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 20 second video amazing
+2022-06-30 19:41:44.893  INFO 17660 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"guildId":"553003755390369803","sessionId":"06524854858ea6728fab640a67fb486e","event":{"token":"d1a549d014695903","endpoint":"russia3791.discord.media:443"},"op":"voiceUpdate"}
+2022-06-30 19:41:44.934  INFO 17660 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"track":"QAAAewIAFzIwIHNlY29uZCB2aWRlbyBhbWF6aW5nAApuaXlhc3B2IHB2AAAAAAAARlAAC1VVZ1N6THp4SnlvAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9VVVnU3pMenhKeW8AB3lvdXR1YmUAAAAAAAAAAA==","guildId":"553003755390369803","op":"play"}
+2022-06-30 19:42:17.582  INFO 17660 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:57061 -- CloseStatus[code=1006, reason=]
+2022-06-30 19:42:17.583  INFO 17660 --- [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2022-06-30 19:43:10.528  INFO 17660 --- [XNIO-1 task-45] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:57157
+2022-06-30 19:43:10.532  INFO 17660 --- [XNIO-1 task-45] lavalink.server.io.SocketServer          : Connection successfully established from Victoria/5.2.8.0
+2022-06-30 19:43:13.801  INFO 17660 --- [XNIO-1 task-46] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=UUgSzLzxJyo"
+2022-06-30 19:43:13.884  INFO 17660 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 20 second video amazing
+2022-06-30 19:43:14.162  INFO 17660 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"guildId":"553003755390369803","sessionId":"7a05651286c0522d08d55ec1b28b0b35","event":{"token":"d1a549d014695903","endpoint":"russia3791.discord.media:443"},"op":"voiceUpdate"}
+2022-06-30 19:43:14.237  INFO 17660 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"track":"QAAAewIAFzIwIHNlY29uZCB2aWRlbyBhbWF6aW5nAApuaXlhc3B2IHB2AAAAAAAARlAAC1VVZ1N6THp4SnlvAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9VVVnU3pMenhKeW8AB3lvdXR1YmUAAAAAAAAAAA==","guildId":"553003755390369803","op":"play"}
+2022-06-30 19:45:48.226  INFO 17660 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:57157 -- CloseStatus[code=1006, reason=]
+2022-06-30 19:45:48.227  INFO 17660 --- [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2022-06-30 19:45:54.063  INFO 17660 --- [XNIO-1 task-48] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:57243
+2022-06-30 19:45:54.067  INFO 17660 --- [XNIO-1 task-48] lavalink.server.io.SocketServer          : Connection successfully established from Victoria/5.2.8.0
+2022-06-30 19:46:04.507  INFO 17660 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"guildId":"553003755390369803","sessionId":"528d6f82d2dd962d1f160600db0c0088","event":{"token":"eb60964f3e31180f","endpoint":"russia3791.discord.media:443"},"op":"voiceUpdate"}
+2022-06-30 19:46:04.609  INFO 17660 --- [XNIO-1 task-49] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=UUgSzLzxJyo"
+2022-06-30 19:46:04.700  INFO 17660 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 20 second video amazing
+2022-06-30 19:46:08.061  INFO 17660 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"track":"QAAAewIAFzIwIHNlY29uZCB2aWRlbyBhbWF6aW5nAApuaXlhc3B2IHB2AAAAAAAARlAAC1VVZ1N6THp4SnlvAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9VVVnU3pMenhKeW8AB3lvdXR1YmUAAAAAAAAAAA==","guildId":"553003755390369803","op":"play"}
+2022-06-30 19:46:31.425  INFO 17660 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:57243 -- CloseStatus[code=1006, reason=]
+2022-06-30 19:46:31.425  INFO 17660 --- [XNIO-1 I/O-3] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2022-06-30 19:46:38.707  INFO 17660 --- [XNIO-1 task-51] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:57286
+2022-06-30 19:46:38.710  INFO 17660 --- [XNIO-1 task-51] lavalink.server.io.SocketServer          : Connection successfully established from Victoria/5.2.8.0
+2022-06-30 19:46:43.064  INFO 17660 --- [XNIO-1 task-52] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=UUgSzLzxJyo"
+2022-06-30 19:46:43.069  INFO 17660 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"guildId":"553003755390369803","sessionId":"50c4c9ece13c5fb09a9680c87390d7e2","event":{"token":"eb60964f3e31180f","endpoint":"russia3791.discord.media:443"},"op":"voiceUpdate"}
+2022-06-30 19:46:43.158  INFO 17660 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 20 second video amazing
+2022-06-30 19:46:43.623  INFO 17660 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : {"track":"QAAAewIAFzIwIHNlY29uZCB2aWRlbyBhbWF6aW5nAApuaXlhc3B2IHB2AAAAAAAARlAAC1VVZ1N6THp4SnlvAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9VVVnU3pMenhKeW8AB3lvdXR1YmUAAAAAAAAAAA==","guildId":"553003755390369803","op":"play"}
+2022-06-30 19:47:06.355  INFO 17660 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:57286 -- CloseStatus[code=1006, reason=]
+2022-06-30 19:47:06.355  INFO 17660 --- [XNIO-1 I/O-10] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2022-06-30 19:47:28.260  INFO 17660 --- [XNIO-1 task-54] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:57313
+2022-06-30 19:47:28.262  INFO 17660 --- [XNIO-1 task-54] lavalink.server.io.SocketServer          : Connection successfully established from Victoria/5.2.8.0
+2022-06-30 19:47:33.149  INFO 17660 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"guildId":"553003755390369803","sessionId":"f39d3007dac7286dfa04b016347790f7","event":{"token":"eb60964f3e31180f","endpoint":"russia3791.discord.media:443"},"op":"voiceUpdate"}
+2022-06-30 19:47:33.169  INFO 17660 --- [XNIO-1 task-55] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=UUgSzLzxJyo"
+2022-06-30 19:47:33.271  INFO 17660 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 20 second video amazing
+2022-06-30 19:47:33.626  INFO 17660 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"track":"QAAAewIAFzIwIHNlY29uZCB2aWRlbyBhbWF6aW5nAApuaXlhc3B2IHB2AAAAAAAARlAAC1VVZ1N6THp4SnlvAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9VVVnU3pMenhKeW8AB3lvdXR1YmUAAAAAAAAAAA==","guildId":"553003755390369803","op":"play"}
+2022-06-30 19:48:01.813  INFO 17660 --- [XNIO-1 task-57] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:sex whales dead to me"
+2022-06-30 19:48:02.402  INFO 17660 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: sex whales dead to me
+2022-06-30 19:48:02.699  INFO 17660 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"track":"QAAAmwIANlNleCBXaGFsZXMgJiBGcmF4byAtIERlYWQgVG8gTWUgKGZlYXQuIExveCBDaGF0dGVyYm94KQALVHJhcCBOYXRpb24AAAAAAAOGWAALNjRhQS1RajVaY0UAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj02NGFBLVFqNVpjRQAHeW91dHViZQAAAAAAAAAA","guildId":"553003755390369803","op":"play"}
+2022-06-30 19:48:17.105  INFO 17660 --- [XNIO-1 task-59] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:kokkoku op"
+2022-06-30 19:48:17.444  INFO 17660 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: kokkoku op
+2022-06-30 19:48:46.958  INFO 17660 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:57313 -- CloseStatus[code=1006, reason=]
+2022-06-30 19:48:46.959  INFO 17660 --- [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2022-06-30 19:53:46.218  INFO 17660 --- [XNIO-1 task-61] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:57495
+2022-06-30 19:53:46.222  INFO 17660 --- [XNIO-1 task-61] lavalink.server.io.SocketServer          : Connection successfully established from Victoria/5.2.8.0
+2022-06-30 19:53:51.844  INFO 17660 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"guildId":"553003755390369803","sessionId":"ed2eeee75f8973a388b80707ec715a5e","event":{"token":"59de633c0b4ef9df","endpoint":"russia3791.discord.media:443"},"op":"voiceUpdate"}
+2022-06-30 19:53:52.017  INFO 17660 --- [XNIO-1 task-62] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=UUgSzLzxJyo"
+2022-06-30 19:53:52.174  INFO 17660 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 20 second video amazing
+2022-06-30 19:53:52.602  INFO 17660 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"track":"QAAAewIAFzIwIHNlY29uZCB2aWRlbyBhbWF6aW5nAApuaXlhc3B2IHB2AAAAAAAARlAAC1VVZ1N6THp4SnlvAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9VVVnU3pMenhKeW8AB3lvdXR1YmUAAAAAAAAAAA==","guildId":"553003755390369803","op":"play"}
+2022-06-30 19:54:00.557  INFO 17660 --- [XNIO-1 task-64] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:sex whales dead to me"
+2022-06-30 19:54:01.116  INFO 17660 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: sex whales dead to me
+2022-06-30 19:55:34.692  INFO 17660 --- [XNIO-1 task-66] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:sex whales dead to me"
+2022-06-30 19:55:35.230  INFO 17660 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: sex whales dead to me
+2022-06-30 19:55:35.622  INFO 17660 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"track":"QAAAmwIANlNleCBXaGFsZXMgJiBGcmF4byAtIERlYWQgVG8gTWUgKGZlYXQuIExveCBDaGF0dGVyYm94KQALVHJhcCBOYXRpb24AAAAAAAOGWAALNjRhQS1RajVaY0UAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj02NGFBLVFqNVpjRQAHeW91dHViZQAAAAAAAAAA","guildId":"553003755390369803","op":"play"}
+2022-06-30 19:55:46.294  INFO 17660 --- [XNIO-1 task-68] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=UUgSzLzxJyo"
+2022-06-30 19:55:46.399  INFO 17660 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 20 second video amazing
+2022-06-30 19:56:18.779  INFO 17660 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"track":"QAAAmwIANlNleCBXaGFsZXMgJiBGcmF4byAtIERlYWQgVG8gTWUgKGZlYXQuIExveCBDaGF0dGVyYm94KQALVHJhcCBOYXRpb24AAAAAAAOGWAALNjRhQS1RajVaY0UAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj02NGFBLVFqNVpjRQAHeW91dHViZQAAAAAAAAAA","volume":100,"guildId":"553003755390369803","op":"play"}
+2022-06-30 19:56:18.780  WARN 17660 --- [XNIO-1 I/O-3] lavalink.server.io.WebSocketHandlers     : The volume property in the play operation has been deprecatedand will be removed in v4. Please configure a filter instead. Note that the new filter takes a float value with 1.0 being 100%
+2022-06-30 19:56:22.033  INFO 17660 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"track":"QAAAewIAFzIwIHNlY29uZCB2aWRlbyBhbWF6aW5nAApuaXlhc3B2IHB2AAAAAAAARlAAC1VVZ1N6THp4SnlvAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9VVVnU3pMenhKeW8AB3lvdXR1YmUAAAAAAAAAAA==","volume":100,"guildId":"553003755390369803","op":"play"}
+2022-06-30 19:56:26.980  INFO 17660 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"guildId":"553003755390369803","op":"stop"}
+2022-06-30 19:56:26.981  INFO 17660 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"guildId":"553003755390369803","op":"destroy"}
+2022-06-30 19:56:29.960  INFO 17660 --- [XNIO-1 task-70] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=UUgSzLzxJyo"
+2022-06-30 19:56:29.990  INFO 17660 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"guildId":"553003755390369803","sessionId":"ed2eeee75f8973a388b80707ec715a5e","event":{"token":"5efa62fc4c2788c8","endpoint":"russia3791.discord.media:443"},"op":"voiceUpdate"}
+2022-06-30 19:56:30.058  INFO 17660 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 20 second video amazing
+2022-06-30 19:56:30.396  INFO 17660 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"track":"QAAAewIAFzIwIHNlY29uZCB2aWRlbyBhbWF6aW5nAApuaXlhc3B2IHB2AAAAAAAARlAAC1VVZ1N6THp4SnlvAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9VVVnU3pMenhKeW8AB3lvdXR1YmUAAAAAAAAAAA==","guildId":"553003755390369803","op":"play"}
+2022-06-30 19:56:32.568  INFO 17660 --- [XNIO-1 task-72] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:sex whales"
+2022-06-30 19:56:33.095  INFO 17660 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: sex whales
+2022-06-30 19:57:01.005  INFO 17660 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"guildId":"553003755390369803","op":"stop"}
+2022-06-30 19:57:01.008  INFO 17660 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"guildId":"553003755390369803","op":"destroy"}
+2022-06-30 19:57:03.052  INFO 17660 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:57495 -- CloseStatus[code=1006, reason=]
+2022-06-30 19:57:03.052  INFO 17660 --- [XNIO-1 I/O-3] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2022-06-30 19:57:44.668  INFO 17660 --- [XNIO-1 task-74] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:57631
+2022-06-30 19:57:44.670  INFO 17660 --- [XNIO-1 task-74] lavalink.server.io.SocketServer          : Connection successfully established from Victoria/5.2.8.0
+2022-06-30 19:57:46.486  INFO 17660 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"guildId":"553003755390369803","sessionId":"26c7c8c6d43c880fc66bad4cab3f6085","event":{"token":"6d6fff38d033c5d2","endpoint":"russia3791.discord.media:443"},"op":"voiceUpdate"}
+2022-06-30 19:57:46.557  INFO 17660 --- [XNIO-1 task-75] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=UUgSzLzxJyo"
+2022-06-30 19:57:46.668  INFO 17660 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 20 second video amazing
+2022-06-30 19:57:47.263  INFO 17660 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"track":"QAAAewIAFzIwIHNlY29uZCB2aWRlbyBhbWF6aW5nAApuaXlhc3B2IHB2AAAAAAAARlAAC1VVZ1N6THp4SnlvAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9VVVnU3pMenhKeW8AB3lvdXR1YmUAAAAAAAAAAA==","guildId":"553003755390369803","op":"play"}
+2022-06-30 19:57:59.465  INFO 17660 --- [XNIO-1 task-77] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:sex whales dead to me"
+2022-06-30 19:57:59.866  INFO 17660 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: sex whales dead to me
+2022-06-30 19:58:13.272  INFO 17660 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:57631 -- CloseStatus[code=1006, reason=]
+2022-06-30 19:58:13.272  INFO 17660 --- [XNIO-1 I/O-7] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2022-06-30 19:58:26.468  INFO 17660 --- [XNIO-1 task-79] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:57649
+2022-06-30 19:58:26.470  INFO 17660 --- [XNIO-1 task-79] lavalink.server.io.SocketServer          : Connection successfully established from Victoria/5.2.8.0
+2022-06-30 19:58:29.166  INFO 17660 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"guildId":"553003755390369803","sessionId":"4c154b2eda72d84afedf569af43a335a","event":{"token":"6d6fff38d033c5d2","endpoint":"russia3791.discord.media:443"},"op":"voiceUpdate"}
+2022-06-30 19:58:29.606  INFO 17660 --- [XNIO-1 task-80] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=UUgSzLzxJyo"
+2022-06-30 19:58:29.701  INFO 17660 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 20 second video amazing
+2022-06-30 19:58:30.062  INFO 17660 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"track":"QAAAewIAFzIwIHNlY29uZCB2aWRlbyBhbWF6aW5nAApuaXlhc3B2IHB2AAAAAAAARlAAC1VVZ1N6THp4SnlvAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9VVVnU3pMenhKeW8AB3lvdXR1YmUAAAAAAAAAAA==","guildId":"553003755390369803","op":"play"}
+2022-06-30 19:58:33.638  INFO 17660 --- [XNIO-1 task-82] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:sex whales dead to me"
+2022-06-30 19:58:33.988  INFO 17660 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: sex whales dead to me
+2022-06-30 19:58:39.920  INFO 17660 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:57649 -- CloseStatus[code=1006, reason=]
+2022-06-30 19:58:39.920  INFO 17660 --- [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2022-06-30 19:59:16.461  INFO 17660 --- [XNIO-1 task-84] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:57675
+2022-06-30 19:59:16.464  INFO 17660 --- [XNIO-1 task-84] lavalink.server.io.SocketServer          : Connection successfully established from Victoria/5.2.8.0
+2022-06-30 19:59:19.335  INFO 17660 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"guildId":"553003755390369803","sessionId":"47069e9c69278e314c32cee0d869898a","event":{"token":"6d6fff38d033c5d2","endpoint":"russia3791.discord.media:443"},"op":"voiceUpdate"}
+2022-06-30 19:59:19.664  INFO 17660 --- [XNIO-1 task-85] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:sex whales dead to me"
+2022-06-30 19:59:20.265  INFO 17660 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: sex whales dead to me
+2022-06-30 19:59:20.769  INFO 17660 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"track":"QAAAmwIANlNleCBXaGFsZXMgJiBGcmF4byAtIERlYWQgVG8gTWUgKGZlYXQuIExveCBDaGF0dGVyYm94KQALVHJhcCBOYXRpb24AAAAAAAOGWAALNjRhQS1RajVaY0UAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj02NGFBLVFqNVpjRQAHeW91dHViZQAAAAAAAAAA","guildId":"553003755390369803","op":"play"}
+2022-06-30 19:59:27.457  INFO 17660 --- [XNIO-1 task-87] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=UUgSzLzxJyo"
+2022-06-30 19:59:27.799  INFO 17660 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 20 second video amazing
+2022-06-30 19:59:35.808  INFO 17660 --- [XNIO-1 task-89] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:sex whales dead to me"
+2022-06-30 19:59:36.213  INFO 17660 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: sex whales dead to me
+2022-06-30 19:59:38.793  INFO 17660 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"track":"QAAAewIAFzIwIHNlY29uZCB2aWRlbyBhbWF6aW5nAApuaXlhc3B2IHB2AAAAAAAARlAAC1VVZ1N6THp4SnlvAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9VVVnU3pMenhKeW8AB3lvdXR1YmUAAAAAAAAAAA==","volume":100,"guildId":"553003755390369803","op":"play"}
+2022-06-30 19:59:57.536  INFO 17660 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"track":"QAAAmwIANlNleCBXaGFsZXMgJiBGcmF4byAtIERlYWQgVG8gTWUgKGZlYXQuIExveCBDaGF0dGVyYm94KQALVHJhcCBOYXRpb24AAAAAAAOGWAALNjRhQS1RajVaY0UAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj02NGFBLVFqNVpjRQAHeW91dHViZQAAAAAAAAAA","volume":100,"guildId":"553003755390369803","op":"play"}
+2022-06-30 20:00:47.288  INFO 17660 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:57675 -- CloseStatus[code=1006, reason=]
+2022-06-30 20:00:47.288  INFO 17660 --- [XNIO-1 I/O-3] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2022-06-30 20:00:54.677  INFO 17660 --- [XNIO-1 task-91] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:57711
+2022-06-30 20:00:54.679  INFO 17660 --- [XNIO-1 task-91] lavalink.server.io.SocketServer          : Connection successfully established from Victoria/5.2.8.0
+2022-06-30 20:00:58.330  INFO 17660 --- [XNIO-1 task-92] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=UUgSzLzxJyo"
+2022-06-30 20:00:58.433  INFO 17660 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 20 second video amazing
+2022-06-30 20:00:58.621  INFO 17660 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"guildId":"553003755390369803","sessionId":"ad9762072d88a5cb10d2f628603c7a36","event":{"token":"6d6fff38d033c5d2","endpoint":"russia3791.discord.media:443"},"op":"voiceUpdate"}
+2022-06-30 20:00:58.798  INFO 17660 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"track":"QAAAewIAFzIwIHNlY29uZCB2aWRlbyBhbWF6aW5nAApuaXlhc3B2IHB2AAAAAAAARlAAC1VVZ1N6THp4SnlvAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9VVVnU3pMenhKeW8AB3lvdXR1YmUAAAAAAAAAAA==","guildId":"553003755390369803","op":"play"}
+2022-06-30 20:01:02.969  INFO 17660 --- [XNIO-1 task-94] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:sex whales dead to me"
+2022-06-30 20:01:03.422  INFO 17660 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: sex whales dead to me
+2022-06-30 20:01:17.533  INFO 17660 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"track":"QAAAmwIANlNleCBXaGFsZXMgJiBGcmF4byAtIERlYWQgVG8gTWUgKGZlYXQuIExveCBDaGF0dGVyYm94KQALVHJhcCBOYXRpb24AAAAAAAOGWAALNjRhQS1RajVaY0UAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj02NGFBLVFqNVpjRQAHeW91dHViZQAAAAAAAAAA","volume":100,"guildId":"553003755390369803","op":"play"}
+2022-06-30 20:02:06.160  INFO 17660 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:57711 -- CloseStatus[code=1006, reason=]
+2022-06-30 20:02:06.160  INFO 17660 --- [XNIO-1 I/O-3] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2022-06-30 20:13:21.822  INFO 17660 --- [XNIO-1 task-96] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:57993
+2022-06-30 20:13:21.825  INFO 17660 --- [XNIO-1 task-96] lavalink.server.io.SocketServer          : Connection successfully established from Victoria/5.2.8.0
+2022-06-30 20:13:25.115  INFO 17660 --- [XNIO-1 I/O-9] lavalink.server.io.SocketServer          : {"guildId":"553003755390369803","sessionId":"44535e7af0690a4a8d453d5559569632","event":{"token":"58131b82f5b31546","endpoint":"russia3791.discord.media:443"},"op":"voiceUpdate"}
+2022-06-30 20:13:25.139  INFO 17660 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:sex whales dead to me"
+2022-06-30 20:13:25.973  INFO 17660 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: sex whales dead to me
+2022-06-30 20:13:26.505  INFO 17660 --- [XNIO-1 I/O-9] lavalink.server.io.SocketServer          : {"track":"QAAAmwIANlNleCBXaGFsZXMgJiBGcmF4byAtIERlYWQgVG8gTWUgKGZlYXQuIExveCBDaGF0dGVyYm94KQALVHJhcCBOYXRpb24AAAAAAAOGWAALNjRhQS1RajVaY0UAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj02NGFBLVFqNVpjRQAHeW91dHViZQAAAAAAAAAA","guildId":"553003755390369803","op":"play"}
+2022-06-30 20:13:47.931  INFO 17660 --- [XNIO-1 I/O-9] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:57993 -- CloseStatus[code=1006, reason=]
+2022-06-30 20:13:47.932  INFO 17660 --- [XNIO-1 I/O-9] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2022-06-30 20:18:10.294  INFO 17660 --- [XNIO-1 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:58374
+2022-06-30 20:18:10.481  INFO 17660 --- [XNIO-1 task-3] lavalink.server.io.SocketServer          : Connection successfully established from Victoria/5.2.8.0
+2022-06-30 20:18:13.001  INFO 17660 --- [XNIO-1 task-4] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:sex whales dead to me"
+2022-06-30 20:18:13.015  INFO 17660 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"guildId":"553003755390369803","sessionId":"4ec43ba4979d343d6e4922db74c350b0","event":{"token":"3ba743fb5922e09e","endpoint":"russia3791.discord.media:443"},"op":"voiceUpdate"}
+2022-06-30 20:18:13.514  INFO 17660 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: sex whales dead to me
+2022-06-30 20:18:18.062  INFO 17660 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"track":"QAAAmwIANlNleCBXaGFsZXMgJiBGcmF4byAtIERlYWQgVG8gTWUgKGZlYXQuIExveCBDaGF0dGVyYm94KQALVHJhcCBOYXRpb24AAAAAAAOGWAALNjRhQS1RajVaY0UAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj02NGFBLVFqNVpjRQAHeW91dHViZQAAAAAAAAAA","guildId":"553003755390369803","op":"play"}
+2022-06-30 20:18:46.765  INFO 17660 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:58374 -- CloseStatus[code=1006, reason=]
+2022-06-30 20:18:46.766  INFO 17660 --- [XNIO-1 I/O-6] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2022-06-30 20:38:26.187  INFO 17660 --- [XNIO-1 task-6] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:58214
+2022-06-30 20:38:26.311  INFO 17660 --- [XNIO-1 task-6] lavalink.server.io.SocketServer          : Connection successfully established from Victoria/5.2.8.0
+2022-06-30 20:38:31.380  INFO 17660 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"guildId":"553003755390369803","sessionId":"c2659bf8574bfa5a7644d05bad4c649a","event":{"token":"3623d1fbf5acc245","endpoint":"russia3791.discord.media:443"},"op":"voiceUpdate"}
+2022-06-30 20:38:31.693  INFO 17660 --- [XNIO-1 task-7] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:sex whales dead to me"
+2022-06-30 20:38:32.174  INFO 17660 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: sex whales dead to me
+2022-06-30 20:38:32.561  INFO 17660 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"track":"QAAAmwIANlNleCBXaGFsZXMgJiBGcmF4byAtIERlYWQgVG8gTWUgKGZlYXQuIExveCBDaGF0dGVyYm94KQALVHJhcCBOYXRpb24AAAAAAAOGWAALNjRhQS1RajVaY0UAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj02NGFBLVFqNVpjRQAHeW91dHViZQAAAAAAAAAA","guildId":"553003755390369803","op":"play"}
+2022-06-30 20:38:48.464  INFO 17660 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"guildId":"553003755390369803","op":"stop"}
+2022-06-30 20:38:48.465  INFO 17660 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"guildId":"553003755390369803","op":"destroy"}
+2022-06-30 20:38:51.794  INFO 17660 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"guildId":"553003755390369803","sessionId":"c2659bf8574bfa5a7644d05bad4c649a","event":{"token":"d5f827b8abb2e370","endpoint":"russia3791.discord.media:443"},"op":"voiceUpdate"}
+2022-06-30 20:38:51.998  INFO 17660 --- [XNIO-1 task-9] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=UUgSzLzxJyo"
+2022-06-30 20:38:52.099  INFO 17660 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 20 second video amazing
+2022-06-30 20:38:52.394  INFO 17660 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"track":"QAAAewIAFzIwIHNlY29uZCB2aWRlbyBhbWF6aW5nAApuaXlhc3B2IHB2AAAAAAAARlAAC1VVZ1N6THp4SnlvAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9VVVnU3pMenhKeW8AB3lvdXR1YmUAAAAAAAAAAA==","guildId":"553003755390369803","op":"play"}
+2022-06-30 20:38:59.489  INFO 17660 --- [XNIO-1 task-11] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:sex whales dead to me"
+2022-06-30 20:38:59.868  INFO 17660 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: sex whales dead to me
+2022-06-30 20:39:15.132  INFO 17660 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:58214 -- CloseStatus[code=1006, reason=]
+2022-06-30 20:39:15.133  INFO 17660 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2022-06-30 20:40:01.007  INFO 17660 --- [XNIO-1 task-13] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:58267
+2022-06-30 20:40:01.009  INFO 17660 --- [XNIO-1 task-13] lavalink.server.io.SocketServer          : Connection successfully established from Victoria/5.2.8.0
+2022-06-30 20:40:04.492  INFO 17660 --- [XNIO-1 task-14] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:sex whales dead to me"
+2022-06-30 20:40:04.775  INFO 17660 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"guildId":"553003755390369803","sessionId":"8f77504dae725a91b6d783c0cba27641","event":{"token":"d5f827b8abb2e370","endpoint":"russia3791.discord.media:443"},"op":"voiceUpdate"}
+2022-06-30 20:40:05.167  INFO 17660 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: sex whales dead to me
+2022-06-30 20:40:05.544  INFO 17660 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"track":"QAAAmwIANlNleCBXaGFsZXMgJiBGcmF4byAtIERlYWQgVG8gTWUgKGZlYXQuIExveCBDaGF0dGVyYm94KQALVHJhcCBOYXRpb24AAAAAAAOGWAALNjRhQS1RajVaY0UAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj02NGFBLVFqNVpjRQAHeW91dHViZQAAAAAAAAAA","guildId":"553003755390369803","op":"play"}
+2022-06-30 20:41:24.407  INFO 17660 --- [XNIO-1 task-16] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=UUgSzLzxJyo"
+2022-06-30 20:41:24.500  INFO 17660 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 20 second video amazing
+2022-06-30 20:41:26.876  INFO 17660 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : {"track":"QAAAewIAFzIwIHNlY29uZCB2aWRlbyBhbWF6aW5nAApuaXlhc3B2IHB2AAAAAAAARlAAC1VVZ1N6THp4SnlvAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9VVVnU3pMenhKeW8AB3lvdXR1YmUAAAAAAAAAAA==","volume":100,"guildId":"553003755390369803","op":"play"}
+2022-06-30 20:42:25.005  INFO 17660 --- [XNIO-1 I/O-7] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:58267 -- CloseStatus[code=1006, reason=]
+2022-06-30 20:42:25.005  INFO 17660 --- [XNIO-1 I/O-7] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2022-06-30 20:44:34.777  INFO 17660 --- [XNIO-1 task-18] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:58701
+2022-06-30 20:44:34.780  INFO 17660 --- [XNIO-1 task-18] lavalink.server.io.SocketServer          : Connection successfully established from Victoria/5.2.8.0
+2022-06-30 20:44:42.777  INFO 17660 --- [XNIO-1 I/O-9] lavalink.server.io.SocketServer          : {"guildId":"553003755390369803","sessionId":"d04f889fb2f416070fd9bdb6390fd56d","event":{"token":"d8e18f3ca5e57ceb","endpoint":"russia3791.discord.media:443"},"op":"voiceUpdate"}
+2022-06-30 20:44:42.965  INFO 17660 --- [XNIO-1 task-19] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=UUgSzLzxJyo"
+2022-06-30 20:44:43.074  INFO 17660 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 20 second video amazing
+2022-06-30 20:44:43.417  INFO 17660 --- [XNIO-1 I/O-9] lavalink.server.io.SocketServer          : {"track":"QAAAewIAFzIwIHNlY29uZCB2aWRlbyBhbWF6aW5nAApuaXlhc3B2IHB2AAAAAAAARlAAC1VVZ1N6THp4SnlvAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9VVVnU3pMenhKeW8AB3lvdXR1YmUAAAAAAAAAAA==","guildId":"553003755390369803","op":"play"}
+2022-06-30 20:44:50.064  INFO 17660 --- [XNIO-1 task-21] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:sex whales dead to me"
+2022-06-30 20:44:50.520  INFO 17660 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: sex whales dead to me
+2022-06-30 20:44:51.434  INFO 17660 --- [XNIO-1 I/O-9] lavalink.server.io.SocketServer          : {"track":"QAAAmwIANlNleCBXaGFsZXMgJiBGcmF4byAtIERlYWQgVG8gTWUgKGZlYXQuIExveCBDaGF0dGVyYm94KQALVHJhcCBOYXRpb24AAAAAAAOGWAALNjRhQS1RajVaY0UAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj02NGFBLVFqNVpjRQAHeW91dHViZQAAAAAAAAAA","volume":100,"guildId":"553003755390369803","op":"play"}
+2022-06-30 20:45:24.379  INFO 17660 --- [XNIO-1 I/O-9] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:58701 -- CloseStatus[code=1006, reason=]
+2022-06-30 20:45:24.379  INFO 17660 --- [XNIO-1 I/O-9] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2022-06-30 20:48:44.027  INFO 17660 --- [XNIO-1 task-23] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:58808
+2022-06-30 20:48:44.030  INFO 17660 --- [XNIO-1 task-23] lavalink.server.io.SocketServer          : Connection successfully established from Victoria/5.2.8.0
+2022-06-30 20:48:52.011  INFO 17660 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"guildId":"553003755390369803","sessionId":"b2c81e70f737a98e9b4070a87550a88f","event":{"token":"704c4b3ce85877b2","endpoint":"russia3791.discord.media:443"},"op":"voiceUpdate"}
+2022-06-30 20:48:52.106  INFO 17660 --- [XNIO-1 task-24] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:sex whales dead to me"
+2022-06-30 20:48:52.672  INFO 17660 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: sex whales dead to me
+2022-06-30 20:48:53.058  INFO 17660 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"track":"QAAAmwIANlNleCBXaGFsZXMgJiBGcmF4byAtIERlYWQgVG8gTWUgKGZlYXQuIExveCBDaGF0dGVyYm94KQALVHJhcCBOYXRpb24AAAAAAAOGWAALNjRhQS1RajVaY0UAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj02NGFBLVFqNVpjRQAHeW91dHViZQAAAAAAAAAA","guildId":"553003755390369803","op":"play"}
+2022-06-30 20:49:10.391  INFO 17660 --- [XNIO-1 task-26] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=UUgSzLzxJyo"
+2022-06-30 20:49:10.470  INFO 17660 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 20 second video amazing
+2022-06-30 20:49:17.054  INFO 17660 --- [XNIO-1 task-28] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:sex whales dead to me"
+2022-06-30 20:49:17.505  INFO 17660 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: sex whales dead to me
+2022-06-30 20:49:22.313  INFO 17660 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"track":"QAAAewIAFzIwIHNlY29uZCB2aWRlbyBhbWF6aW5nAApuaXlhc3B2IHB2AAAAAAAARlAAC1VVZ1N6THp4SnlvAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9VVVnU3pMenhKeW8AB3lvdXR1YmUAAAAAAAAAAA==","volume":100,"guildId":"553003755390369803","op":"play"}
+2022-06-30 20:49:29.675  INFO 17660 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"guildId":"553003755390369803","op":"stop"}
+2022-06-30 20:49:29.676  INFO 17660 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"guildId":"553003755390369803","op":"destroy"}
+2022-06-30 20:50:14.578  INFO 17660 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:58808 -- CloseStatus[code=1006, reason=]
+2022-06-30 20:50:14.578  INFO 17660 --- [XNIO-1 I/O-8] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2022-06-30 20:50:32.473  INFO 17660 --- [XNIO-1 task-30] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:58890
+2022-06-30 20:50:32.475  INFO 17660 --- [XNIO-1 task-30] lavalink.server.io.SocketServer          : Connection successfully established from Victoria/5.2.8.0
+2022-06-30 20:50:40.679  INFO 17660 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"guildId":"553003755390369803","sessionId":"7cc1180a882e940748f15b5cd51af8c4","event":{"token":"cebd8dcc185ed89f","endpoint":"russia3791.discord.media:443"},"op":"voiceUpdate"}
+2022-06-30 20:50:40.830  INFO 17660 --- [XNIO-1 task-31] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:sex whales dead to me"
+2022-06-30 20:50:41.547  INFO 17660 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: sex whales dead to me
+2022-06-30 20:50:41.918  INFO 17660 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"track":"QAAAmwIANlNleCBXaGFsZXMgJiBGcmF4byAtIERlYWQgVG8gTWUgKGZlYXQuIExveCBDaGF0dGVyYm94KQALVHJhcCBOYXRpb24AAAAAAAOGWAALNjRhQS1RajVaY0UAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj02NGFBLVFqNVpjRQAHeW91dHViZQAAAAAAAAAA","guildId":"553003755390369803","op":"play"}
+2022-06-30 20:50:46.718  INFO 17660 --- [XNIO-1 task-33] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=UUgSzLzxJyo"
+2022-06-30 20:50:46.817  INFO 17660 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 20 second video amazing
+2022-06-30 20:50:49.453  INFO 17660 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"track":"QAAAewIAFzIwIHNlY29uZCB2aWRlbyBhbWF6aW5nAApuaXlhc3B2IHB2AAAAAAAARlAAC1VVZ1N6THp4SnlvAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9VVVnU3pMenhKeW8AB3lvdXR1YmUAAAAAAAAAAA==","volume":100,"guildId":"553003755390369803","op":"play"}
+2022-06-30 20:50:56.480  INFO 17660 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"guildId":"553003755390369803","op":"stop"}
+2022-06-30 20:50:56.481  INFO 17660 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"guildId":"553003755390369803","op":"destroy"}
+2022-06-30 20:54:47.463  INFO 17660 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:58890 -- CloseStatus[code=1006, reason=]
+2022-06-30 20:54:47.464  INFO 17660 --- [XNIO-1 I/O-6] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2022-06-30 20:54:55.287  INFO 17660 --- [XNIO-1 task-35] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:59009
+2022-06-30 20:54:55.289  INFO 17660 --- [XNIO-1 task-35] lavalink.server.io.SocketServer          : Connection successfully established from Victoria/5.2.8.0
+2022-06-30 20:55:01.756  INFO 17660 --- [XNIO-1 task-36] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:sex whales dead to me"
+2022-06-30 20:55:01.956  INFO 17660 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : {"guildId":"553003755390369803","sessionId":"6580417c279043ed3ca9e631b95af022","event":{"token":"9d20e2d7c287a6eb","endpoint":"russia3791.discord.media:443"},"op":"voiceUpdate"}
+2022-06-30 20:55:02.270  INFO 17660 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: sex whales dead to me
+2022-06-30 20:55:02.634  INFO 17660 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : {"track":"QAAAmwIANlNleCBXaGFsZXMgJiBGcmF4byAtIERlYWQgVG8gTWUgKGZlYXQuIExveCBDaGF0dGVyYm94KQALVHJhcCBOYXRpb24AAAAAAAOGWAALNjRhQS1RajVaY0UAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj02NGFBLVFqNVpjRQAHeW91dHViZQAAAAAAAAAA","guildId":"553003755390369803","op":"play"}
+2022-06-30 20:55:23.012  INFO 17660 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:59009 -- CloseStatus[code=1006, reason=]
+2022-06-30 20:55:23.012  INFO 17660 --- [XNIO-1 I/O-5] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2022-06-30 20:56:00.986  INFO 17660 --- [XNIO-1 task-38] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:59052
+2022-06-30 20:56:00.995  INFO 17660 --- [XNIO-1 task-38] lavalink.server.io.SocketServer          : Connection successfully established from Victoria/5.2.8.0
+2022-06-30 20:56:16.041  INFO 17660 --- [XNIO-1 task-39] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=UUgSzLzxJyo"
+2022-06-30 20:56:16.146  INFO 17660 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track 20 second video amazing
+2022-06-30 20:56:16.222  INFO 17660 --- [XNIO-1 I/O-12] lavalink.server.io.SocketServer          : {"guildId":"553003755390369803","sessionId":"94a172a53ed6132dfd7cd5999b8bf6c1","event":{"token":"9d20e2d7c287a6eb","endpoint":"russia3791.discord.media:443"},"op":"voiceUpdate"}
+2022-06-30 20:56:16.535  INFO 17660 --- [XNIO-1 I/O-12] lavalink.server.io.SocketServer          : {"track":"QAAAewIAFzIwIHNlY29uZCB2aWRlbyBhbWF6aW5nAApuaXlhc3B2IHB2AAAAAAAARlAAC1VVZ1N6THp4SnlvAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9VVVnU3pMenhKeW8AB3lvdXR1YmUAAAAAAAAAAA==","guildId":"553003755390369803","op":"play"}
+2022-06-30 20:56:22.030  INFO 17660 --- [XNIO-1 I/O-12] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:59052 -- CloseStatus[code=1006, reason=]
+2022-06-30 20:56:22.031  INFO 17660 --- [XNIO-1 I/O-12] lavalink.server.io.SocketContext         : Shutting down 1 playing players.

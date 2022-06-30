@@ -12,16 +12,15 @@ using Victoria.Responses.Search;
 
 namespace Discord_Music_Bot.Core.Managers;
 
-public sealed class AudioManager : ModuleBase<SocketCommandContext>
+public sealed class AudioCommands : ModuleBase<SocketCommandContext>
 {
-    private readonly LavaNode _lavaNode;
+    private readonly LavaNode _lavaNode = ServiceManager.Provider.GetRequiredService<LavaNode>();
     private readonly AudioService _audioService;
     private static readonly IEnumerable<int> Range = Enumerable.Range(1900, 2000);
-
-    public AudioManager(LavaNode lavaNode)
+    
+    public AudioCommands()
     {
-        _lavaNode = lavaNode;
-        _audioService = new AudioService(_lavaNode,new LoggerFactory());
+        _audioService = new AudioService();
     }
 
     [Command("Join")]
@@ -264,27 +263,7 @@ public sealed class AudioManager : ModuleBase<SocketCommandContext>
             await ReplyAsync(exception.Message);
         }
     }
-
-    [Command("Volume")]
-    public async Task VolumeAsync(ushort volume)
-    {
-        if (!_lavaNode.TryGetPlayer(Context.Guild, out var player))
-        {
-            await ReplyAsync("Я не подключен ни к одному каналу долбаеб");
-            return;
-        }
-
-        try
-        {
-            await player.UpdateVolumeAsync(volume);
-            await ReplyAsync($"Громкость изменена на {volume}.");
-        }
-        catch (Exception exception)
-        {
-            await ReplyAsync(exception.Message);
-        }
-    }
-
+    
     [Command("NowPlaying"), Alias("Np")]
     public async Task NowPlayingAsync()
     {

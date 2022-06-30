@@ -12,7 +12,8 @@ public class Bot
 {
     private DiscordSocketClient _client;
     private CommandService _commandService;
-
+    private AudioService _audioService;
+    private LavaNode _lavaNode;
     public Bot()
     {
         _client = new DiscordSocketClient(new DiscordSocketConfig()
