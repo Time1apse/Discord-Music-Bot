@@ -4,6 +4,7 @@ using Discord;
 using Discord.Commands;
 using Discord.WebSocket;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 using Victoria;
 using Victoria.Enums;
 using Victoria.EventArgs;
@@ -17,10 +18,10 @@ public sealed class AudioManager : ModuleBase<SocketCommandContext>
     private readonly AudioService _audioService;
     private static readonly IEnumerable<int> Range = Enumerable.Range(1900, 2000);
 
-    public AudioManager(LavaNode lavaNode, AudioService audioService)
+    public AudioManager(LavaNode lavaNode)
     {
         _lavaNode = lavaNode;
-        _audioService = audioService;
+        _audioService = new AudioService(_lavaNode,new LoggerFactory());
     }
 
     [Command("Join")]

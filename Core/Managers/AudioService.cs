@@ -48,12 +48,12 @@ public sealed class AudioService
     private async Task OnTrackStarted(TrackStartEventArgs arg)
     {
         await arg.Player.TextChannel.SendMessageAsync($"Сейчас играет {arg.Track.Title}");
-        if (!_disconnectTokens.TryGetValue(arg.Player.VoiceChannel.Id, out var value)) return;
-
-        if (value.IsCancellationRequested) return;
-        
-        value.Cancel(true);
-        await arg.Player.TextChannel.SendMessageAsync("Аудио дисконнект отменен");
+        /*  if (!_disconnectTokens.TryGetValue(arg.Player.VoiceChannel.Id, out var value)) return;
+  
+          if (value.IsCancellationRequested) return;
+          
+          value.Cancel(true);
+          await arg.Player.TextChannel.SendMessageAsync("Аудио дисконнект отменен"); */
     }
 
     private async Task OnTrackEnded(TrackEndedEventArgs args)
@@ -63,8 +63,8 @@ public sealed class AudioService
         var player = args.Player;
         if (!player.Queue.TryDequeue(out var lavaTrack)) {
             await player.TextChannel.SendMessageAsync("Очередь за сосиками закончилась, купи подписку и покупай сосиски без очереди");
-            _ = InitiateDisconnectAsync(args.Player, TimeSpan.FromSeconds(10));
-            return;
+            /*_ = InitiateDisconnectAsync(args.Player, TimeSpan.FromSeconds(10));
+            return; */
         }
 
         if (lavaTrack is null)
